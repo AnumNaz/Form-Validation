@@ -1,0 +1,48 @@
+body{
+    background: linear-gradient(to bottom, #CF8BF3, #FDB99B);
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.row{
+    height: 100%;
+}
+
+.box{
+    background-color: rgba(252, 251, 250, 0.863);
+    border-radius: 20px;
+}
+
+.label{
+    display: block;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.feild{
+    height: 40px;
+    font-size: 16px;
+    width: 100%;
+    outline: none;
+    border: 1px solid rgb(224, 224, 224);
+    padding: 5px;
+    border-radius: 8px;
+}
+
+.err p{
+    color: red;
+}
+
+.btn{
+    background: linear-gradient(to bottom, #FDB99B, #CF8BF3);
+    font-weight: 500;
+    height: 40px;
+   
+}
+
+.btn:hover{
+    background: linear-gradient(to top, #FDB99B, #CF8BF3);
+ border: none;
+}
